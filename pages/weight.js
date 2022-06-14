@@ -16,11 +16,14 @@ export default function Home() {
       </Head>
 
       <main className={styles.main}>
-        <h1 className={styles.title}>Improve your NFT with imgix!</h1>
+        <h1 className={styles.title}>
+          Improve your NFT with imgix! (WEIGHT PAGE)
+        </h1>
 
         <div className={styles.grid}>
           <div className={styles.card}>
             <p>Before</p>
+
             <Imgix
               src={
                 'https://imgix-nft-demo-web.imgix.net/' +
